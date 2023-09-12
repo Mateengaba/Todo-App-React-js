@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.heading{
+background-color: #5c709b;
+width: 60%;
+height: auto;
+/* text-align: center; */
+align-items: center;
+margin-left: 310px;
+border-radius: 5px;
+padding-top: 20px;
+color: white;
+}
+
+.Todo-head{
+  text-align: center;
+  font-weight: bold;
+  font-size:x-large;
+  border: black;
+  border-bottom: 1px solid black;
+padding-bottom: 10px;
+margin-bottom: 20px;
+
+}
+
+@media only screen and (max-width : 800px){
+
+  .input{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  width: auto;
+  }
+
+/* .btn{
+  margin-left: 30px;
+} */
+
+.add_btn{
+margin: 10px;
+padding: 6px;
+}
+
+.Delete_all{
+  margin: 10px;
+  padding: 6px;
+  }
+
+}
